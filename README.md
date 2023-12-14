@@ -3,7 +3,7 @@ Here is the odoo 16 installation script.
 
 ## Instructions
 
-### git clone https://github.com/cid-kagenou-shadow/odoo-16-installation-script
+### git clone https://github.com/cid-kagenou-shadow/odoo-16-installation-script.git
 
 ### cd odoo-16-installation-script
 
