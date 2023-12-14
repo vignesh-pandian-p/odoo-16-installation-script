@@ -1,12 +1,33 @@
 # odoo-16-installation-script
 Here is the odoo 16 installation script. 
 
-## Instructions
+## Pre-requisites
 
-### git clone https://github.com/cid-kagenou-shadow/odoo-16-installation-script.git
+* Ubuntu 20.04 or above
+* minimum 8 GB RAM
+* Disk Space of about 30 - 50 GB
 
-### cd odoo-16-installation-script
 
-### sudo chmod +x install.sh
+## How To Use
 
-## That's it !!! Odoo 16 will get's installed now.... :) 
+To clone and run this application, From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/cid-kagenou-shadow/odoo-16-installation-script.git
+
+# Go into the repository
+$ cd odoo-16-installation-script
+
+# Giving execution rights
+$ sudo chmod +x install.sh
+
+# Run the script
+$ ./install.sh
+```
+
+
+
+
+
+
