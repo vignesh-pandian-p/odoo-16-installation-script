@@ -25,6 +25,9 @@ $ sudo chmod +x install.sh
 # Run the script
 $ ./install.sh
 ```
+## Tested os
+
+* Ubuntu 20.04 LTS, 22.04 LTS
 
 
 
