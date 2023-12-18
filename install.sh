@@ -31,9 +31,8 @@ StandardOutput=journal+console
 [Install]
 WantedBy=multi-user.target"
 echo "################################################################################"
-echo "# Author       : shadow"
+echo "# Author       : vignesh_pandian"
 echo "################################################################################"
-echo "ODOO16 has been installed successfully !!! "
 
 # updating server 
 echo    "---- UPDATING SERVER ----"
@@ -221,6 +220,13 @@ if sudo systemctl start odoo.service ; then
 else
     echo "--- failed to start odoo service !!! ---"
 fi
+
+echo "################################################################################"
+echo "################################################################################"
+echo "                 ODOO16 has been installed successfully !!! "
+echo "################################################################################"
+echo "################################################################################"
+
 
 if sudo systemctl status odoo.service ; then
     echo "--- odoo status !!! ---"
